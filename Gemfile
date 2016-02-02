@@ -1,7 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'sinatra', '1.1.0'
+ruby '2.3.0'
+
+gem 'sinatra', '1.4.7'
 
 group :development do
-  gem "shotgun"
+  gem 'shotgun'
 end
